@@ -1,0 +1,321 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: url(images/fondo.jpg) !important;
+}
+
+
+
+
+
+
+/*----------------------------Footer-----------------------------------------------------------*/
+.container-general{
+    min-height:calc(100vh - 100px -200px) ;
+}
+.footer {
+  position: relative ;
+  left: 0;
+  bottom: 0px !important;
+  width: 100%;
+  /*height: 300px;*/
+  clear: both;
+  text-align: center;
+  text-decoration-color: #463a31 !important;
+  display: block
+}
+.footer {
+  text-align: center;
+  background-color: #f7f7e9;
+}
+
+.footer .redes a {
+  padding: 8px 6px;
+  font-size: 35px;
+  text-decoration-color: white;
+  color: #38c3e6;
+}
+
+footer .redes .twitter:hover {
+  transform: scale(1.5, 1.5);
+  color: rgb(192, 228, 231);
+}
+
+footer .redes .facebook:hover {
+  transform: scale(1.5, 1.5);
+  color: rgb(250, 55, 120);
+}
+
+footer .redes .tarjeta:hover {
+  transform: scale(1.5, 1.5);
+  color: rgb(255, 198, 92);
+}
+
+footer .redes .instagram:hover {
+  transform: scale(1.5, 1.5);
+  color: rgb(233, 196, 233);
+}
+.texto {
+  color: #463a31 !important;
+  text-align: center;
+}
+
+
+
+
+/*Para el navbar, sacado de w3school, responsive*/
+
+/* Agregar color al fondo */
+.topnav {
+  background-color: #f7f7e9;
+  overflow: hidden;
+}
+
+/* Estilos para los links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #50453c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Cambiar el color cuando pasamos el mouse */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+  background-color: #f05e94;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*--------Para el carrusel------------------------------------------------------------------------------*/
+
+
+.carousel-inner> .item> img {
+    width: 400px !important; 
+    height: 360px !important; 
+   }
+
+   /*-------------Para el banner-------------------*/
+   .imagen-banner {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 0%;
+  }
+
+  /*----FLEXBVOX PARA EL INICIO, MOSTLY FLUID*/
+
+  .entrada-blog a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .contenedor {
+        width: 80%;
+    }
+}
+
+@media (min-width:768px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+#paginacion {
+    border: 1px solid #CCC;
+    background-color: #E0E0E0;
+    padding: .5em;
+    padding-bottom: 5px;
+  }
+  
+  .primero   {
+      height: 300px;
+       float: left; 
+    background-color: red;}
+    
+  .segundo  { 
+    height: 300px;  
+    float:left;
+background-color: black;  }
+
+  .tercero {
+    height: 300px;  
+    float: left;
+background-color: green;}
+
+
+  /*CAJAS QYE SE SUPONE Q ANDA MALDITA SEA*/
+  .cajas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+  .caja{
+    background-color: #fef7e5;
+   
+  
+    
+  }
+  
+  .caja h3{
+    height: 48px;
+    color: rgb(39, 38, 38);
+    font-family: "Hiragino Mincho ProN",serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    padding-left: -1em;
+    text-align: center;
+    
+  }
+  .caja img {
+    
+    border-radius: 2%;
+    width: 200px;
+    height: 200px;
+  }
+  .row h1{
+    height: 48px;
+    color: rgb(39, 38, 38);
+    font-family: "Hiragino Mincho ProN",serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    padding-left: -1em;
+    text-align: center;
+  }
+  .productos{
+    background: url(images/staff_bg.jpg);
+  }
+/*-----------Para el staff-----------------------*/
+.contenedor{
+   font-family: "Hiragino Mincho ProN",serif;
+
+}
+.sobre-nosotros{
+  background: url(images/staff_bg.jpg);
+  
+}
+.sobre-nosotros img{
+  border-radius: 2% ;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding-left: 10%;
+}
+
+.fabrica{
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.fabrica img {
+    
+  border-radius: 2%;
+  width: 400px;
+  height: 300px;
+}
+.productos{
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+.row p{
+  
+  padding: 5% !important;
+}
+.ubicacion{
+  text-align: left;
+     height: 48px;
+    color: rgb(39, 38, 38);
+    font-family: "Hiragino Mincho ProN",serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    padding-left: -1em;
+    text-align: center;
+    padding-bottom: 5%;
+}
+/*---------Ubicacion------------------------*/
+
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  padding-top: 5%;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+ 
+/*-------Contacto------------------*/
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
